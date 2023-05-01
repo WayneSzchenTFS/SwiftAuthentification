@@ -13,6 +13,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    /*
+    import SwiftUI
+    
+    struct ContentView: View {
+        var body: some View {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, World")
+            }
+            .padding()
+        }
+    }
+     */
 
 
 }
