@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-    //
+    ////
 struct AuthentificationView: View {
     var body: some View {
         VStack

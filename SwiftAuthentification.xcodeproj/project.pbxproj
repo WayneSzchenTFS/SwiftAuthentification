@@ -52,9 +52,9 @@
 		58C0FB2129FF3B5A00B0DCB7 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				58C0FB2229FF3B8F00B0DCB7 /* AuthentificationView.swift */,
 				58C0FB2629FF3CF300B0DCB7 /* SignInEmailView.swift */,
 				58C0FB2829FF3E8100B0DCB7 /* AuthentificationManager.swift */,
+				58C0FB2229FF3B8F00B0DCB7 /* AuthentificationView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
