@@ -21,13 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //
         return true
     }
-    var body: some Scene {
-        WindowGroup {
-            NavigationStack{
-                AuthentificationView()
-            }
-        }
-    }
 
 
     // MARK: UISceneSession Lifecycle

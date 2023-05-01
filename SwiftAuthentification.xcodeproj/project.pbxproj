@@ -10,6 +10,9 @@
 		58C0FB2329FF3B8F00B0DCB7 /* AuthentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C0FB2229FF3B8F00B0DCB7 /* AuthentificationView.swift */; };
 		58C0FB2729FF3CF300B0DCB7 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C0FB2629FF3CF300B0DCB7 /* SignInEmailView.swift */; };
 		58C0FB2929FF3E8100B0DCB7 /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C0FB2829FF3E8100B0DCB7 /* AuthentificationManager.swift */; };
+		58E1037D29FFEBEE007BAA9F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1037C29FFEBEE007BAA9F /* RootView.swift */; };
+		58E1037F29FFEE99007BAA9F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1037E29FFEE99007BAA9F /* SettingsView.swift */; };
+		58E1038129FFF247007BAA9F /* SwiftAuthentificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1038029FFF247007BAA9F /* SwiftAuthentificationApp.swift */; };
 		58EBB57A29F9AA6D0064D969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBB57929F9AA6D0064D969 /* AppDelegate.swift */; };
 		58EBB57C29F9AA6D0064D969 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBB57B29F9AA6D0064D969 /* SceneDelegate.swift */; };
 		58EBB57E29F9AA6D0064D969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBB57D29F9AA6D0064D969 /* ViewController.swift */; };
@@ -25,6 +28,9 @@
 		58C0FB2229FF3B8F00B0DCB7 /* AuthentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationView.swift; sourceTree = "<group>"; };
 		58C0FB2629FF3CF300B0DCB7 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		58C0FB2829FF3E8100B0DCB7 /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
+		58E1037C29FFEBEE007BAA9F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		58E1037E29FFEE99007BAA9F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		58E1038029FFF247007BAA9F /* SwiftAuthentificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAuthentificationApp.swift; sourceTree = "<group>"; };
 		58EBB57629F9AA6D0064D969 /* SwiftAuthentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAuthentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EBB57929F9AA6D0064D969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EBB57B29F9AA6D0064D969 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				58C0FB2629FF3CF300B0DCB7 /* SignInEmailView.swift */,
+				58E1037E29FFEE99007BAA9F /* SettingsView.swift */,
 				58C0FB2829FF3E8100B0DCB7 /* AuthentificationManager.swift */,
 				58C0FB2229FF3B8F00B0DCB7 /* AuthentificationView.swift */,
 			);
@@ -81,12 +88,14 @@
 				58C0FB2129FF3B5A00B0DCB7 /* Auth */,
 				58EBB58D29F9AB7C0064D969 /* GoogleService-Info.plist */,
 				58EBB57929F9AA6D0064D969 /* AppDelegate.swift */,
+				58E1038029FFF247007BAA9F /* SwiftAuthentificationApp.swift */,
 				58EBB57B29F9AA6D0064D969 /* SceneDelegate.swift */,
 				58EBB57D29F9AA6D0064D969 /* ViewController.swift */,
 				58EBB57F29F9AA6D0064D969 /* Main.storyboard */,
 				58EBB58229F9AA6F0064D969 /* Assets.xcassets */,
 				58EBB58429F9AA6F0064D969 /* LaunchScreen.storyboard */,
 				58EBB58729F9AA6F0064D969 /* Info.plist */,
+				58E1037C29FFEBEE007BAA9F /* RootView.swift */,
 			);
 			path = SwiftAuthentification;
 			sourceTree = "<group>";
@@ -171,9 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58EBB57E29F9AA6D0064D969 /* ViewController.swift in Sources */,
+				58E1037F29FFEE99007BAA9F /* SettingsView.swift in Sources */,
 				58EBB57A29F9AA6D0064D969 /* AppDelegate.swift in Sources */,
+				58E1038129FFF247007BAA9F /* SwiftAuthentificationApp.swift in Sources */,
 				58C0FB2929FF3E8100B0DCB7 /* AuthentificationManager.swift in Sources */,
 				58EBB57C29F9AA6D0064D969 /* SceneDelegate.swift in Sources */,
+				58E1037D29FFEBEE007BAA9F /* RootView.swift in Sources */,
 				58C0FB2329FF3B8F00B0DCB7 /* AuthentificationView.swift in Sources */,
 				58C0FB2729FF3CF300B0DCB7 /* SignInEmailView.swift in Sources */,
 			);
